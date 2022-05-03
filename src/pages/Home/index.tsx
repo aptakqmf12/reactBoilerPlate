@@ -5,8 +5,10 @@ import Content from '../Layout/content';
 const CounterPage: FC = () => {
     return (
         <>
-            <Content title='카운터 페이지'>
-                <Counter />
+            <Content title='Home'>
+                <div>home content</div>
+                <div>home content</div>
+                <div>home content</div>
             </Content>
         </>
     );
