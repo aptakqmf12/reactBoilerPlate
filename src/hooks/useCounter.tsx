@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { counterSelector, counterAction } from '../store/modules/counter';
+import { counterSelector, counterAction } from '@store/modules/counter';
 
 const useCounter = () => {
     const dispatch = useDispatch();

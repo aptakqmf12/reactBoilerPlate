@@ -1,9 +1,9 @@
 import { lazy, FC } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 
-import Home from '../pages/Home';
-import ChartPage from '../pages/Chart';
-import CounterPage from '../pages/Counter';
+import Home from '@pages/Home';
+import ChartPage from '@pages/Chart';
+import CounterPage from '@pages/Counter';
 
 const RenderRouter = () => {
     return (
