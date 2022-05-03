@@ -1,13 +1,19 @@
 import React, { useState, useMemo, useCallback, ChangeEvent } from 'react';
-import useCounter from './hooks/useCounter';
+import { Routes, Route, Link } from 'react-router-dom';
+
+import GlobalStyle from './styles';
+
+import ChartPage from './pages/Chart';
+import CounterPage from './pages/Counter';
 
 function App() {
-    const { count, setCountUp } = useCounter();
     return (
         <div className='App'>
-            <div>
-                counter : {count} <button onClick={() => setCountUp(1)}>add 1</button>
-            </div>
+            <GlobalStyle />
+            <Routes>
+                <Route path='chart' element={<ChartPage />}></Route>
+                <Route path='counter' element={<CounterPage />}></Route>
+            </Routes>
         </div>
     );
 }

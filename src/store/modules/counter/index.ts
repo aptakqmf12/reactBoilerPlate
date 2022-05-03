@@ -2,7 +2,6 @@ import { createSlice, createSelector, PayloadAction } from '@reduxjs/toolkit';
 import { RootState } from '../../';
 
 export const COUNTER = 'counter';
-
 interface CounterState {
     count: number;
 }
