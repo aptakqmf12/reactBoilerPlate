@@ -6,6 +6,7 @@
 - react-router-dom
 - styled-components
 - axios
+- craco
 
 ## start
 `yarn`
