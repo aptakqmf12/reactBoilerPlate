@@ -3,15 +3,13 @@ import Counter from '../../component/Counter';
 import Content from '../Layout/content';
 
 const CounterPage: FC = () => {
-    return (
-        <>
-            <Content title='Home'>
-                <div>home content</div>
-                <div>home content</div>
-                <div>home content</div>
-            </Content>
-        </>
-    );
+  return (
+    <>
+      <Content>
+        <div>home content</div>
+      </Content>
+    </>
+  );
 };
 
 export default CounterPage;
