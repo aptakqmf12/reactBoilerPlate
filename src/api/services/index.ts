@@ -1,13 +1,13 @@
-import Client from '../index';
-import axios from 'axios';
+import Client from "../index";
 
-export const fetchData = async (param: any) => {
-  return await Client.credentialsInstance.get(`${Client.path.api}/주소`, param);
-};
-
-export const fetchPosts = async (param?: number) => {
-  const res = await axios.get(
+export const fetchPostById = (param?: number) => {
+  return Client.credentialsInstance.get(
     `https://jsonplaceholder.typicode.com/posts/${param}`
   );
-  return res.data;
+};
+
+export const fetchAllPosts = () => {
+  return Client.credentialsInstance.get(
+    `https://jsonplaceholder.typicode.com/posts`
+  );
 };

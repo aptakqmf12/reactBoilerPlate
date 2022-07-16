@@ -1,22 +1,24 @@
-import React, { FC } from 'react';
-
-import Header from '../header';
-import Footer from '../footer';
+import React, { FC } from "react";
+import Header from "../header";
+import Footer from "../footer";
+import * as S from "./style";
 
 interface Props {
-    title?: string;
-    children?: JSX.Element | JSX.Element[];
+  title?: string;
+  children?: JSX.Element | JSX.Element[];
 }
 
 const Content: FC<Props> = ({ title, children }) => {
-    return (
-        <>
-            <Header />
-            {title && <h2>{title}</h2>}
-            {children}
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <S.StyledContent>
+        {title && <S.Title>{title}</S.Title>}
+        {children}
+      </S.StyledContent>
+      <Footer />
+    </>
+  );
 };
 
 export default Content;

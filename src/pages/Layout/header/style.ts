@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  padding: 0 10px;
   border-bottom: 1px black solid;
   h1 {
   }
