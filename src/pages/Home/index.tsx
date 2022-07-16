@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
-import Counter from '../../component/Counter';
-import Content from '../Layout/content';
+import Counter from '@component/Counter';
+import Content from '@pages/Layout/content';
 
 const CounterPage: FC = () => {
   return (

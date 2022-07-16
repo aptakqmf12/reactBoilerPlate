@@ -1,10 +1,16 @@
 import { lazy, FC } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 
+<<<<<<< HEAD
 import Home from '../pages/Home';
 import ChartPage from '../pages/Chart';
 import CounterPage from '../pages/Counter';
 import PostBoardPage from '../pages/PostBoard';
+=======
+import Home from '@pages/Home';
+import ChartPage from '@pages/Chart';
+import CounterPage from '@pages/Counter';
+>>>>>>> stage
 
 const RenderRouter = () => {
   return (
