@@ -9,7 +9,7 @@
 - styled-components
 - axios
 - craco
-+ custom hook
++ custom hook (state관리 및 비즈니스로직 분리)
 
 ## start
 `yarn`
