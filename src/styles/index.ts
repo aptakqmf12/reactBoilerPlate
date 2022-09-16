@@ -1,5 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
-import { normalize } from 'styled-normalize';
+import { createGlobalStyle } from "styled-components";
+import { normalize } from "styled-normalize";
+import "antd/dist/antd.css";
 // import Fonts from '../assets/fonts';
 
 const GlobalStyle = createGlobalStyle`

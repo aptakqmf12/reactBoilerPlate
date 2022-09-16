@@ -1,17 +1,16 @@
-import React, { FC } from 'react';
-import Counter from '@component/Counter';
-import Content from '@pages/Layout/content';
+import React, { FC } from "react";
+import Counter from "@component/Counter";
+import Content from "@pages/Layout/content";
+import Home from "@component/Home";
 
 const CounterPage: FC = () => {
-    return (
-        <>
-            <Content title='Home'>
-                <div>home content</div>
-                <div>home content</div>
-                <div>home content</div>
-            </Content>
-        </>
-    );
+  return (
+    <>
+      <Content title='Home'>
+        <Home />
+      </Content>
+    </>
+  );
 };
 
 export default CounterPage;

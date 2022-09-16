@@ -1,8 +1,14 @@
 import styled from 'styled-components';
 
-export const StyledNav = styled.nav`
+export const StyledHeader = styled.header`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 30px;
     border-bottom: 1px black solid;
+`;
+
+export const StyledNav = styled.nav`
     ul {
         display: flex;
         flex-flow: row wrap;

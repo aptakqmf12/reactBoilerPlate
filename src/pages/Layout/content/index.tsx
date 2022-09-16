@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 
+import { StyledWapper } from './style';
 import Header from '../header';
 import Footer from '../footer';
 
